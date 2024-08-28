@@ -1,0 +1,49 @@
+.search-results {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.results-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results {
+  flex: 3;
+}
+
+.result-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.result-item h2 {
+  margin: 0 0 5px;
+}
+
+.pagination,
+.google-pagination {
+  margin-top: 20px;
+}
+
+.pagination ul,
+.google-pagination ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li,
+.google-pagination li {
+  margin: 5px 0;
+}
+
+.pagination a,
+.google-pagination a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.pagination a:hover,
+.google-pagination a:hover {
+  text-decoration: underline;
+}

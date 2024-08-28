@@ -1,0 +1,33 @@
+.body {
+  width: 100%;
+  height: calc(100vh - 16.66%);
+}
+
+.section {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.result-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #bebdbd8b;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-item a {
+  color: #588ee6;
+  text-decoration: none;
+}
+
+.result-item a:hover {
+  text-decoration: underline;
+}
+
+.result-item p {
+    color: rgba(235, 235, 235, 0.904);
+  margin: 5px 0 0 0;
+}
